@@ -22,6 +22,8 @@ export default class ItemProduct extends Component {
               handleChangeDetail(item);
             }}
             className="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
           >
             View
           </button>

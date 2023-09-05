@@ -65,7 +65,7 @@ export default class Shoes_Shop extends Component {
               cartItem={this.state.cart}
             />
           </div>
-          <div className="col-6">
+          <div className="col-6 p-0">
             <ProductList
               handleChangeDetail={this.handleChangeDetail}
               handleAddToCart={this.handleAddToCart}
